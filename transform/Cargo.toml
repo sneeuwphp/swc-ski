@@ -1,0 +1,10 @@
+[package]
+name = "transform"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+swc_core = { version = "0.97.*", features = ["ecma_plugin_transform"] }
+swc_ecma_parser   = "0.147.0"
+swc_ecma_utils    = "0.133.1"
+testing = "0.38.0"
